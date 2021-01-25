@@ -1,4 +1,3 @@
-import Image from "next/image";
 import { useRouter } from "next/router";
 import GoogleFonts from "next-google-fonts";
 
@@ -38,16 +37,6 @@ export default function BlogJskonecznyPl() {
           borderColor: "#2D2B2B",
         }}
       >
-        <div className="absolute top-0 right-0 mt-6 mr-6">
-          <Image
-            src="/images/logo.svg"
-            alt="Page logo with JS initials"
-            width="96"
-            height="96"
-            className="w-24 h-24"
-          />
-        </div>
-
         <div className="max-w-screen-lg">
           <Heading
             noMargin
