@@ -7,17 +7,19 @@
     "start": "next start"
   },
   "dependencies": {
-    "@tailwindcss/ui": "^0.6.2",
-    "classnames": "^2.2.6",
-    "next": "latest",
-    "next-google-fonts": "^1.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1",
-    "tailwindcss": "^1.7.4"
+    "@tailwindcss/ui": "0.7.2",
+    "classnames": "2.2.6",
+    "next": "10.0.5",
+    "next-google-fonts": "1.2.1",
+    "qs": "^6.9.6",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "tailwindcss": "2.0.2"
   },
   "devDependencies": {
-    "postcss-flexbugs-fixes": "4.2.1",
-    "postcss-preset-env": "^6.7.0"
+    "postcss": "8.2.4",
+    "postcss-flexbugs-fixes": "5.0.2",
+    "postcss-preset-env": "6.7.0"
   },
   "license": "MIT"
 }
