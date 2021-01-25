@@ -21,7 +21,6 @@ export default function BlogJskonecznyPl() {
 
   if (!link) return null;
 
-  const linkURL = new URL(link);
   const title = searchParams.get("title");
 
   return (
@@ -58,7 +57,7 @@ export default function BlogJskonecznyPl() {
                 blog.jskoneczny.pl
               </p>
               <p className="text-2xl font-open-sans">
-                <span className="path">{linkURL.pathname}</span>
+                <span className="path">{link}</span>
               </p>
             </div>
           </div>
