@@ -2,13 +2,13 @@ import qs from "qs";
 
 export default async function handler(req, res) {
   try {
-    const host = req.headers.host;
     const { domain, ...queryParams } = req.query;
 
     const domainName = domain[0];
     const token = process.env.TOKEN;
+    const host = req.headers.HOST;
 
-    const baseUrl = `http://${host}/${domainName}`;
+    const baseUrl = `${host}/${domainName}`;
     const params = qs.stringify(queryParams);
     const url = encodeURIComponent(`${baseUrl}?${params}`);
 
